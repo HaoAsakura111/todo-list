@@ -1,0 +1,143 @@
+body {
+  background: #14213d;
+  color: #333;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  height: inherit;
+  margin: 60px auto 0;
+  background-color: white;
+  box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.86);
+  border-radius: 10px;
+
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Russo One', sans-serif;
+  font-style: italic;
+  color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li * {
+  float: left;
+}
+li, h3 {
+  clear:both;
+  list-style:none;
+}
+i{
+ text-align: center;
+}
+input, button {
+  outline: none;
+
+}
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 90px;
+  margin: 10px 0 0;
+}
+button:hover {
+  color: #7209b7;
+}
+h3,
+label[for = 'jauns'] {
+  color: #001219;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 20px 0 10px;
+  margin: 0 5px;
+  text-transform: uppercase;
+}
+input[type = "text"] {
+  margin: 0 5px;
+  font-size: 18px;
+  line-height: 18px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Roboto;
+  color: #888;
+}
+input[type = "text"]:focus {
+  color: #001219;
+}
+
+label[for = 'jauns'] {
+  display: block;
+  margin: 0 5px 20px;
+}
+input #jauns {
+  float: left;
+  width: 318px;
+}
+p > button:hover {
+  color: #7209b7;
+}
+
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+li > input[type = "checkbox"] {
+  margin: 0 5px 5px;
+  position: relative;
+  top: 15px;
+}
+li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 235px;
+  padding: 0 0 0 11px;
+}
+li >  input[type = "text"] {
+  width: 225px;
+}
+li > .delete:hover {
+  color: red;
+}
+
+#pabeigts label {
+  text-decoration: line-through;
+}
+
+ul li input[type = text] {
+  display:none;
+}
+
+ul li.editMode input[type = text] {
+  display:block;
+}
+
+ul li.editMode label {
+  display:none;
+}
+
+#clear{
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+#clear button:hover{
+color: red;
+}
+.misc{
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  font-style: italic;
+}
